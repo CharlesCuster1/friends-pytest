@@ -43,9 +43,9 @@ def collectLoanDetails():
     #numberYears = float(30)
     #annualRate = float(0.06)
     
-    loanAmount = float(input("What is the loan amount?"))
-    numberYears = float(input("How many years is the loan?"))
-    annualRate = float(input("What is the annual interest rate for the loan - entered as a decimal?"))
+    loanAmount = float(100000)
+    numberYears = float(30)
+    annualRate = float(0.06)
     
     return Loan(loanAmount, numberYears, annualRate) #return an object of this class
     
